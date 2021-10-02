@@ -46,5 +46,6 @@ public class Main {
         System.out.println("I have " + me.car.producer + " " + me.car.model);
         System.out.println("waga psa: " + dog.weight);
 
+        me.getSalary();
     }
 }
