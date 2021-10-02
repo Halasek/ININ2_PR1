@@ -35,17 +35,17 @@ public class Main {
         System.out.println("I have a " + me.pet.species);
         System.out.println("I call it " + me.pet.name);
 
+
         Car ford = new Car();
         ford.producer = "ford";
         ford.model = "mondeo";
         ford.millage = 256900.0;
         ford.engineSize = 1.4;
+        ford.value = 25999.9;
 
-        me.car = ford;
+        me.setSalary(2000.0);
+        me.setCar(ford);
+        System.out.println(me.getCar().model);
 
-        System.out.println("I have " + me.car.producer + " " + me.car.model);
-        System.out.println("waga psa: " + dog.weight);
-
-        me.getSalary();
     }
 }

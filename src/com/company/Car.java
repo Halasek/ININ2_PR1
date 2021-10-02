@@ -7,6 +7,6 @@ public class Car {
     Double engineSize;
     Integer yearOfProduction;
     String color;
-
+    Double value;
 
 }
